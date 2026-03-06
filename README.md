@@ -63,3 +63,111 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+## Oinsa atu kolabora
+
+### Branching
+1. Clone uluk repository ida ne'e
+
+```bash
+git clone https://github.com/Noro18/omen-finance-tracker.git
+```
+
+2. kria branch rasik 
+
+wainhria fo naran branch tenki ho formatu 
+
+```bash
+prefixo/tugas_nebe_halo
+```
+
+ba tugas nian tenki separa ho underscore (_)
+
+
+#### Prefix Komum
+
+| Prefix          | Signifikadu / Uza | Exemplu |
+|-----------------|-----------------|--------|
+| `feature/`      | feature foun ka melhoria | `feature/login` |
+| `bugfix/`       | Resolve problema ka bug | `bugfix/fix-navbar` |
+| `hotfix/`       | Correção urgente ba main branch | `hotfix/security-patch` |
+| `docs/`         | Alterasaun iha dokumentasaun | `docs/readme-update` |
+| `test/`         | Branch test ka eksperimentu | `test/new-api` |
+
+Atu kria branch ita uza command 
+
+```bash
+git checkout -b <branch-nia-naran>
+```
+
+3. coding ka halo servisu 
+4. Push branch ba iha repo 
+
+depois de ita halo ita nia servisu ita bele push branch ba iha remote repo.
+
+```bash
+git push origin <naran-branch>
+```
+
+**LABELE MERGE ULUK BA MAIN BRANCXH**
+
+5. Deopis mak owner repo sei revew no merge ba iha main branch
+
+### COMMIT
+
+Wainhria commit make sure commit se wianhira ita halo mudansa logical oan ida  exemplo
+- Diak: "Aumenta nav bar"
+- La diak: "Update buat hout"
+
+Make sure atu **commit hela** diet maihbe **laos kda liafuan ketik ne'e commit** 
+
+#### Oinsa hakrek commit message
+
+Formato:
+```bash
+<tipo>(<scope>): <deskrisaun barak>
+
+<Deskrisaun optional saida mak ita halo no tanba sa>
+```
+exemplo:
+```
+feature(dashboard): Aumenta Nav Bar
+
+Aumenta nav bar ho menu foun no style foun. TAnba butaun navigasaun ba pagina A seiduak iha
+```
+
+##### 1. Tipu Commit (Commit Type)
+
+| Tipu       | Signifikadu / Uza | Exempu |
+|-----------|-----------------|--------|
+| `feat`    | Função foun / feature | `feat(auth): add login form validation` |
+| `fix`     | Halo korrekasaun ba bug | `fix(transactions): correct total amount calculation` |
+| `docs`    | Alterasaun iha dokumentasaun | `docs(readme): add installation instructions` |
+| `style`   | Formata ka naran codigo, la hanesan bug fix | `style(dashboard): format dashboard cards` |
+| `refactor`| Refatoriza codigo, la inclui feature ka fix | `refactor(auth): simplify login validation logic` |
+| `test`    | Adisiona ka korrije tests | `test(transactions): add unit tests for recurring payments` |
+| `chore`   | Manutensaun, update dependencies | `chore(settings): update default notification values` |
+
+**Regra geral:** primeira palavra (tipu) tenke deskreve buat ne'ebé commit halo.
+
+---
+
+#### 2. Scope (Área / Modulu commit)
+
+- Scope mak parte spesífiku husi app ka projekto ne'ebé commit halo.  
+- Klaru hodi hatudu *onde* commit muda kode.  
+ 
+**Exemplu ba Finance Tracker App:**
+
+| Scope         | Buat ne'ebé implica | Exempu commit message |
+|---------------|-------------------|---------------------|
+| `auth`        | Login, signup, password reset | `feat(auth): add login form validation` |
+| `transactions`| Adisiona, edit, remove transasaun | `feat(transactions): allow adding recurring expenses` |
+| `dashboard`   | Pagina principal, overview user | `fix(dashboard): correct total balance calculation` |
+| `reports`     | Charts, export, relatórios | `feat(reports): add monthly spending chart` |
+| `settings`    | Preferensia user, notifications | `chore(settings): update notification defaults` |
+| `readme`      | Dokumentasaun | `docs(readme): add installation instructions` |
+
+**Regra geral:**  
+- Escolhe scope ne'ebé mais especifica ne'ebé commit muda.  
+- Se commit muda ema-liu modulu, split commit ba scope independente ka uza scope gerál `app`.
