@@ -156,7 +156,7 @@ Aumenta nav bar ho menu foun no style foun. TAnba butaun navigasaun ba pagina A 
 
 - Scope mak parte spesífiku husi app ka projekto ne'ebé commit halo.  
 - Klaru hodi hatudu *onde* commit muda kode.  
-
+ 
 **Exemplu ba Finance Tracker App:**
 
 | Scope         | Buat ne'ebé implica | Exempu commit message |
