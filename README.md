@@ -50,13 +50,16 @@ Admin Django nian atu maneja user, categoria transaksaun durante desenvolviment 
 
 ## Project Setup
 
-Python version: 3.14.2
+Python version: `3.14.2`
 
 Create environment:
 
+```bash
 python -m venv venv
 source venv/bin/activate
+```
 
 Install dependencies:
-
+```bash
 pip install -r requirements.txt
+```
