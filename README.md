@@ -65,14 +65,35 @@ pip install -r requirements.txt
 
 ## Oinsa atu kolabora
 
-### 📌 Rules
-
-### Branching
-1. Clone uluk repository ida ne'e
+Primeiro clone uluk repo ida ne'e ba imi nai local machine ou laptop
 
 ```bash
 git clone https://github.com/Noro18/omen-finance-tracker.git
 ```
+
+### 📌 Rules
+
+
+1. **Labele commit direita ba main branch**
+
+```
+git push origin main ❌
+git push origin <branch-ne'ebe imi kria> ✅
+```
+
+
+2. Antes atu halo buat ruma make sure tuir workflow iha kraik
+3. fo naran ba branch no commit tenki tuir rules iha kraik 
+No mos make sure imi nia main branch iha local repo up to date ho remote repo
+
+```bash
+git pull origin main 
+```
+
+depois mak foin tuir step tuir mai mak branchin 
+
+### Branching
+
 
 2. kria branch rasik 
 
@@ -110,7 +131,7 @@ depois de ita halo ita nia servisu ita bele push branch ba iha remote repo.
 git push origin <naran-branch>
 ```
 
-**LABELE MERGE ULUK BA MAIN BRANCXH**
+📌 **LABELE MERGE ULUK BA MAIN BRANCXH**
 
 5. Deopis mak owner repo sei revew no merge ba iha main branch
 
