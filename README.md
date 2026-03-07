@@ -6,7 +6,7 @@ Projetu final ba materia Software Engineering
 ## 🔮 Omen — Advanced Personal Finance Tracker
 **Omen** mak web-based manejamentu fiancial perosnal ne'ebe kria ho technologia **Django**. Nia funsaun prinsipal atu ajuda user kontorla sira nia osan liu husi monitora income, expensed no vizualiza habitu gastu osan, no mos halo prediksaun ba hahalok financial iha futuro ho machine Learning 
 
-## Features
+## ✨ Features
 
 **Transaction Management**
 User bele log nia income no expense, tau ba kategoria (hahan, transporte, rent, entertainment etc..) no fo sai historia transaksaun fulll iha fatin ida
@@ -26,8 +26,7 @@ registrasaun seguro, login, logout, no manejamentu password. kada user nia dados
 **Admin Panel**
 Admin Django nian atu maneja user, categoria transaksaun durante desenvolviment no testing 
 
-## Tech Stack
-
+## 💻 Tech Stack
 
 | Layer                      |                          Tech                          | Description                         |
 | :------------------------------ | :----------------------------------------------------: | ----------------------------------- |
@@ -38,7 +37,7 @@ Admin Django nian atu maneja user, categoria transaksaun durante desenvolviment 
 | Version Control & Collaboration |                      Git + Github                      |                                     |
 | Prediction Model                |       Pandas + scikit-learn (Linear Regression)        |                                     |
 
-## Team
+## 🫂 Team
 
 | Role | Responsibility |
 |---|---|
@@ -65,6 +64,8 @@ pip install -r requirements.txt
 ```
 
 ## Oinsa atu kolabora
+
+### 📌 Rules
 
 ### Branching
 1. Clone uluk repository ida ne'e
