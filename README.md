@@ -193,3 +193,57 @@ Aumenta nav bar ho menu foun no style foun. TAnba butaun navigasaun ba pagina A 
 **Regra geral:**  
 - Escolhe scope ne'ebé mais especifica ne'ebé commit muda.  
 - Se commit muda ema-liu modulu, split commit ba scope independente ka uza scope gerál `app`.
+
+
+# Rezumo Workflow (TL:DR)
+
+Contributor foun
+
+```bash
+# clone uluk repo
+
+git clone https://github.com/Noro18/omen-finance-tracker.git
+
+# kria branch foun ho tuir regra
+
+git checkout -b <branch-nia-naran>
+
+# Servisu ka aumenta feature foun 
+
+# stage mudansa sira no commit durante servisu 
+
+git add .
+
+git commit -m "Mensagem commit Tuir regra"
+
+# Push ba repo
+
+git push origin <branch-nia-naran>
+
+# e Depois ba github no halo Pull Request atu merge ba main branch
+```
+
+Depois hotu tia se karik atu kontinua tan
+
+```bash
+# muda ba branch main. 
+
+git checkout main
+
+# update tuir main branch iha github 
+git pull origin main
+
+# halo branch foun ba feature foun ne'ebe hakarak aumena
+
+git checkout -b <branch-ba-feature-foun>
+
+# add no commit
+
+# push ba repo 
+
+git push origin <branch-ba-feature-foun>
+
+# ba github no kria pull request
+```
+
+![git-workflow](docs/images/diagram-workflow-git.png)
