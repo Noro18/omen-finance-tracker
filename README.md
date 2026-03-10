@@ -247,3 +247,8 @@ git push origin <branch-ba-feature-foun>
 ```
 
 ![git-workflow](docs/images/diagram-workflow-git.png)
+
+#### RULES CODING 
+
+Projetu ida ne'e tuir coding styles nebe tuir best practices professional sira nian. Ba informasaun mais detallu bele le iha [Contribution Guide](CONTRIBUTING.md
+)
